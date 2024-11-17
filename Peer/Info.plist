@@ -14,7 +14,7 @@
 		</dict>
 	</array>
 	<key>NSLocalNetworkUsageDescription</key>
-	<string>此应用需要使用本地网络来发现附近的设备</string>
+	<string>此應用需要使用本地網絡來發現附近的設備</string>
 	<key>NSBonjourServices</key>
 	<array>
 		<string>_peer-example._tcp</string>
