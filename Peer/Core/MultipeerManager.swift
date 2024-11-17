@@ -15,7 +15,7 @@ class MultipeerManager: NSObject {
     private override init() {
         let deviceId = UserDefaults.standard.string(forKey: "peer_device_id") ?? UUID().uuidString
         UserDefaults.standard.setValue(deviceId, forKey: "peer_device_id")
-        let deviceName = "設備_\(String(deviceId.prefix(4)))"
+        let deviceName = "設備M_\(String(deviceId.prefix(4)))"
         
         myPeerId = MCPeerID(displayName: deviceName)
         session = MCSession(peer: myPeerId, securityIdentity: nil, encryptionPreference: .required)

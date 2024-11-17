@@ -38,7 +38,7 @@ class MultipeerSession: NSObject {
         // 生成並保存設備的唯一標識符
         let deviceId = UserDefaults.standard.string(forKey: "peer_device_id") ?? UUID().uuidString
         UserDefaults.standard.setValue(deviceId, forKey: "peer_device_id")
-        let deviceName = "設備_\(String(deviceId.prefix(4)))"
+        let deviceName = "設備S_\(String(deviceId.prefix(4)))"
         
         myPeerId = MCPeerID(displayName: deviceName)
         session = MCSession(peer: myPeerId, securityIdentity: nil, encryptionPreference: .required)
