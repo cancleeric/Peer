@@ -12,7 +12,7 @@ import Foundation
  - 處理設備之間的連接狀態變化
  */
 
-class MultipeerSession: NSObject, ObservableObject {
+class MultipeerSession: NSObject {
     /// 服務類型標識符，用於設備發現
     private let serviceType = "peer-example"
     
