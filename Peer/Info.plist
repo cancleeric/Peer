@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UTImportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeIconFiles</key>
+			<array/>
+			<key>UTTypeIdentifier</key>
+			<string></string>
+			<key>UTTypeTagSpecification</key>
+			<dict/>
+		</dict>
+	</array>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>此应用需要使用本地网络来发现附近的设备</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_peer-example._tcp</string>
+		<string>_peer-example._udp</string>
+	</array>
+</dict>
+</plist>
